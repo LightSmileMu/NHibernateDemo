@@ -1,0 +1,4 @@
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\bin\Debug\YourProject.Tests2.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\bin\Debug\YourProject.Tests2.pdb
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\obj\Debug\YourProject.Tests2.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\obj\Debug\YourProject.Tests2.pdb

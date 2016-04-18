@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+NHibernate03/Dao/bin/Debug/Antlr3.Runtime.dll
+NHibernate03/Dao/bin/Debug/Dao.dll
+NHibernate03/Dao/bin/Debug/Dao.pdb
+NHibernate03/Dao/bin/Debug/Domain.dll
+*.pdb
