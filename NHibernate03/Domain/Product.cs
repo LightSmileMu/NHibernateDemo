@@ -76,7 +76,7 @@ namespace Domain
 
         public virtual void Validate()
         {
-            if (BuyPrice > 12M)
+            if (BuyPrice > 100M)
             {
                 throw new ValidationFailure("进货价格太高，无法受理！");
             }

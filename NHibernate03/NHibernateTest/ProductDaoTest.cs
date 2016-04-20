@@ -28,7 +28,7 @@ namespace NHibernateTest
                 Name = "电脑",
                 QuantityPerUnit = "20x1",
                 SellPrice = 11M,
-                Unit = "台"
+                Unit = "台"   
             };
 
             var obj = this.productDao.Save(product);

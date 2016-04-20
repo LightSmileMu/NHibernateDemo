@@ -72,10 +72,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LifecycleTest.cs" />
+    <Compile Include="MySqlHelper.cs" />
+    <Compile Include="MysqlHelperTest.cs" />
     <Compile Include="Utility\NHibernateCfgPicker.cs" />
     <Compile Include="NHibernateInit.cs" />
     <Compile Include="ProductDaoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\SessionFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\hibernate.cfg.xml">

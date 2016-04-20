@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"   assembly="Domain" namespace="Domain">
+  <class name="Student" table="T_Student" lazy="true" >
+    <id name="ID" column="StudentID" type="int" >
+      <generator class="native" />
+    </id>
+    <property name="Name" type="string">
+      <column name="Name" length="50"/>
+    </property>
+    
+    <many-to-one name="Class" cascade="all" column="ClassID"/>
+    <one-to-one name="Family" class="Family"/>
+  </class>
+  
+  <class name="Class" table="T_Class" lazy="true" >
+    <id name="ID" column="ClassID" type="int" >
+      <generator class="native" />
+    </id>
+    <property name="Name" type="string">
+      <column name="Name" length="50"/>
+    </property>
+
+    <many-to-one name="Teacher" class="Teacher" column="TeacherID" unique="true"/>
+
+  </class>
+
+  <class name="Family" table="T_Family" lazy="true">
+    <id name="ID" column="FamilyID" type="int">
+      <generator class="foreign">
+        <param name="property">Student</param>
+      </generator>
+    </id>
+    <property name="Address" type="string" length="200" />
+
+    <one-to-one name="Student" constrained="true" />
+    
+  </class>
+
+  <class name="Teacher" table="T_Teacher">
+
+    <id name="ID" column="TeacherID" type="int">
+      <generator class="native"/>
+    </id>
+
+    <property name="Name" type="string" length="50"/>
+
+    <one-to-one name="Class" class="Class" property-ref="Teacher"/>
+
+  </class>
+</hibernate-mapping>

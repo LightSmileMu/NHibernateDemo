@@ -1,0 +1,9 @@
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\bin\Debug\Domain.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\bin\Debug\Domain.pdb
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\bin\Debug\NHibernate.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\bin\Debug\Iesi.Collections.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\bin\Debug\Antlr3.Runtime.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\bin\Debug\Remotion.Data.Linq.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\obj\Debug\Domain.dll
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\obj\Debug\Domain.pdb
+E:\Project\Demo\GitHubProject\NHibernateDemo\NHibernate03\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache

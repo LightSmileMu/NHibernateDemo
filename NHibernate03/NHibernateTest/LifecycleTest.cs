@@ -99,13 +99,14 @@ namespace NHibernateTest
                         var product = session.Load<Product>(id);
                         Console.WriteLine("调用Load()方法");
 
-                        Assert.NotNull(product.Name);
+                        Assert.Null(product.Name);
 
                         transaction.Commit();
                     }
                     catch (Exception ex)
                     {
                         transaction.Rollback();
+                        Console.WriteLine(ex.Message);
                         throw;
                     }
                 }
