@@ -1,0 +1,7 @@
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\TestDemo\bin\Debug\TestDemo.exe
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\TestDemo\bin\Debug\TestDemo.pdb
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\TestDemo\obj\x86\Debug\TestDemo.Properties.Resources.resources
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\TestDemo\obj\x86\Debug\MathDemo.csproj.GenerateResource.Cache
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\TestDemo\obj\x86\Debug\TestDemo.exe
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\TestDemo\obj\x86\Debug\TestDemo.pdb
+E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\TestDemo\bin\Debug\TestDemo.exe.config
