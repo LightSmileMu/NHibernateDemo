@@ -13,13 +13,18 @@ namespace NHibernateTest.Utility
         {
             get
             {
-                if (_factory != null) return _factory;
-                lock (FactoryLock)
+                if (_factory == null)
                 {
-                    if (_factory != null) return _factory;
-                    var cfg = new Configuration().Configure(NHibernateCfgPicker.GetCfgFilePath());
-                    return _factory = cfg.BuildSessionFactory();
+                    lock (FactoryLock)
+                    {
+                        if (_factory == null)
+                        {
+                            var cfg = new Configuration().Configure(NHibernateCfgPicker.GetCfgFilePath());
+                            _factory = cfg.BuildSessionFactory();
+                        }
+                    }
                 }
+                return _factory;
             }
         }
     }

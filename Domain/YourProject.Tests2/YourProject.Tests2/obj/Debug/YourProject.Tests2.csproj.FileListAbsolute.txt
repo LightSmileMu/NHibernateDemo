@@ -1,8 +1,0 @@
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\bin\Debug\YourProject.Tests2.dll
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\bin\Debug\YourProject.Tests2.pdb
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\obj\Debug\YourProject.Tests2.dll
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\obj\Debug\YourProject.Tests2.pdb
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\bin\Debug\xunit.dll
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\bin\Debug\xunit.extensions.dll
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\obj\Debug\YourProject.Tests2.csprojResolveAssemblyReference.cache
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\YourProject.Tests2\bin\Debug\xunit.runner.utility.dll

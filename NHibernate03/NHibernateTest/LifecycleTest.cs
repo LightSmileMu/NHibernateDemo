@@ -51,10 +51,10 @@ namespace NHibernateTest
 
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
-                        throw;
+                        throw ;
                     }
                 }
             }
@@ -77,7 +77,7 @@ namespace NHibernateTest
 
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
                         throw;
@@ -137,7 +137,7 @@ namespace NHibernateTest
                         product.SellPrice = 23M;
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
                         throw;
@@ -157,7 +157,7 @@ namespace NHibernateTest
                         session.Update(product);
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
                         throw;
@@ -190,10 +190,10 @@ namespace NHibernateTest
                         product.SellPrice = 12M;
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
-                        throw ex;
+                        throw;
                     }
                 }
             }
@@ -227,10 +227,10 @@ namespace NHibernateTest
                         session.Save(product);
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
-                        throw ex;
+                        throw;
                     }
                 }
             }
@@ -255,10 +255,10 @@ namespace NHibernateTest
                         session.Update(product1);
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
-                        throw ex;
+                        throw;
                     }
                 }
             }

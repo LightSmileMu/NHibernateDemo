@@ -54,3 +54,7 @@ NHibernate03/Dao/bin/Debug/Domain.dll
 *.suo
 *.force
 *.suo
+Domain/YourProject.Tests2/YourProject.Tests2.suo
+*.suo
+*.suo
+Domain/YourProject.Tests2/YourProject.Tests2.suo

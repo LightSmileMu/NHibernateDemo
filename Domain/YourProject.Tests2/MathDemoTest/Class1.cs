@@ -20,9 +20,9 @@ namespace MathDemoTest
         [InlineData(1, 1, 2)]
         [InlineData(1, 2, 3)]
         [InlineData(1, 1, 3)]
-        public void SumTest(int a,int b,int result)
+        public void SumTest(int a, int b, int result)
         {
-            Assert.Equal(result, _form1.Sum(a,b));
+            Assert.Equal(result, _form1.Sum(a, b));
         }
 
         [Test]
@@ -43,20 +43,12 @@ namespace MathDemoTest
             list.Add(3);
         }
 
-        private void TupleTest()
-        {
-            Tuple<int,int> tuple = new Tuple<int, int>(1,2);
-
-        }
+       
 
         [Test]
         public void PersonTest()
         {
-            var person = new Person();
-
             dynamic staticPerson = new Person();
-
-            //person.GetFullName("John", "Smith");
             staticPerson.GetFullName("John", "Smith");
         }
 
@@ -74,7 +66,7 @@ namespace MathDemoTest
     {
         public event EventHandler OnAdded;
 
-        private void OnAddedHandler(object sender,EventArgs args)
+        private void OnAddedHandler(object sender, EventArgs args)
         {
             if (OnAdded != null)
             {
@@ -82,12 +74,11 @@ namespace MathDemoTest
             }
         }
 
-        new public void Add(T item)
+        public new void Add(T item)
         {
             OnAddedHandler(this, new ItemAddedEventArgs<T>(item));
             base.Add(item);
         }
-
     }
 
     public class ItemAddedEventArgs<T> : EventArgs
@@ -100,14 +91,11 @@ namespace MathDemoTest
         }
 
         /// <summary>
-        /// Item
+        ///     Item
         /// </summary>
         public T Item
         {
-            get
-            {
-                return _item;
-            }
+            get { return _item; }
         }
     }
 

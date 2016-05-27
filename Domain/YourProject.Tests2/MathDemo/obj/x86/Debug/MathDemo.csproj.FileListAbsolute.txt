@@ -1,7 +1,0 @@
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\MathDemo\bin\Debug\MathDemo.exe
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\MathDemo\bin\Debug\MathDemo.pdb
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\MathDemo\obj\x86\Debug\MathDemo.Properties.Resources.resources
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\MathDemo\obj\x86\Debug\MathDemo.csproj.GenerateResource.Cache
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\MathDemo\obj\x86\Debug\MathDemo.exe
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\MathDemo\obj\x86\Debug\MathDemo.pdb
-E:\Project\Demo\GitHubProject\NHibernateDemo\Domain\YourProject.Tests2\MathDemo\obj\x86\Debug\MathDemo.csprojResolveAssemblyReference.cache
